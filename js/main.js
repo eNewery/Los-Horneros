@@ -24,3 +24,12 @@ navWrapper.addEventListener("click", e => {
     toggleButton.classList.remove("close");
   }
 });
+
+/* CARRITO */
+
+var element = document.getElementById("getMe");
+console.log(element.classList)
+
+function toggle(){
+element.classList.toggle("activo")
+}
